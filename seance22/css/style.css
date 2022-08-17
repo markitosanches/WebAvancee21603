@@ -1,0 +1,41 @@
+body {
+    margin: auto;
+    background: lightblue;
+    font-family: sans-serif;
+  
+  }
+  nav{
+    display: flex;
+    background-color: dodgerblue;
+  }
+  nav a{
+    text-decoration: none;
+    padding: 10px;
+    text-transform: uppercase;
+    color: black;
+  }
+  nav a:hover{
+    background: lightblue;
+  }
+main{
+  padding: 30px;
+}
+  input, select {
+    padding: 5px;
+    width: 150px;
+    display: block;
+    margin: 5px;
+  }
+    .error{
+      color: red;
+    }
+
+table{
+  width: 100%;
+  background-color: white;
+  border-collapse: collapse;
+}
+td{
+  border: 1px solid darkslategray;
+}
+  
